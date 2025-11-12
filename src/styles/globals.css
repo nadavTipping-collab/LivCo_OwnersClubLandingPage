@@ -1,4 +1,5 @@
-@custom-variant dark (&:is(.dark *));
+/* Optional Hebrew fallback - must come before other rules */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700&display=swap');
 
 /* === Custom font (served from /public) === */
 @font-face {
@@ -9,12 +10,7 @@
   font-display: swap;
 }
 
-/* Optional Hebrew fallback */
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;700&display=swap');
-
-/* If this line exists in your file, REMOVE it:
-   @custom-variant dark (&:is(.dark *));
-   (It requires a plugin and can also break PostCSS.) */
+/* Note: a previous @custom-variant line was removed because it requires a PostCSS plugin and can break builds. */
 
 /* Tailwind */
 @tailwind base;

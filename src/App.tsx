@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { motion, useInView } from "motion/react";
+import { motion, useInView } from "framer-motion";
 import { Button } from "./components/ui/button";
 import { ImageWithFallback } from "./components/figma/ImageWithFallback";
 import { ArrowRight } from "lucide-react";
