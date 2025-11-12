@@ -101,7 +101,7 @@ const IntroSection = () => {
             className="text-4xl md:text-5xl mb-8 text-[#3E617F]"
             style={{ fontWeight: 300 }}
           >
-            ברוכים הבאים הביתה
+Welcome to Liv, Welcome HOME
           </h2>
         </FadeInSection>
         <FadeInSection delay={0.2}>
@@ -355,7 +355,7 @@ const AboutSection = () => {
                 className="text-4xl md:text-5xl mb-8"
                 style={{ fontWeight: 300 }}
               >
-                אודות Liv Collection
+                אודות Liv collection  
               </h2>
               <p className="leading-relaxed">
                 Liv Collection הוקמה מתוך חזון ליצור חוויה אחרת
